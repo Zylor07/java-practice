@@ -12,3 +12,4 @@ class inputOutput {
         System.out.print(n);
     }
 }
+
