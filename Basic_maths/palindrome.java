@@ -1,5 +1,5 @@
 
-import javax.lang.model.util.ElementScanner14;
+
 
 class palindrome{
     public boolean  palin(int x){
