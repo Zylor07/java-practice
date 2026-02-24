@@ -7,8 +7,8 @@ public class SubsequencesREcursion {
             result.add(current);
             return;
         }
-        findSubsequences(str, index + 1, current + str.charAt(index), result);
-        findSubsequences(str, index + 1, current, result);
+        findSubsequences(str, index + 1, current + str.charAt(index), result);// pick it
+        findSubsequences(str, index + 1, current, result);//not peak it
     }
     public static void main(String[] args) {
         String str = "abc";
@@ -18,3 +18,12 @@ public class SubsequencesREcursion {
     }
     
 }
+
+    /*
+     * Function to generate all subsequences of a string
+     *
+     * str     → original input string
+     * index   → current position in the string we are deciding on
+     * current → subsequence formed so far
+     * result  → list storing all subsequences
+     */

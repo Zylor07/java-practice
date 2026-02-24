@@ -23,3 +23,11 @@ public class sumofSubsequence {
          Subsequence(arr, 0, new ArrayList<>(), 0, target);}
     
 }
+
+/**
+     * @param arr     The input array
+     * @param index   The current element index we are considering
+     * @param current The current list of integers in the subsequence
+     * @param sum     The running sum of elements in 'current'
+     * @param target  The required sum we are looking for
+     */
