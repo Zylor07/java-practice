@@ -1,3 +1,4 @@
+//one pointer 
 public class reverseAnArray {
     public static void reverseUsingPointer(int i,int arr[]){
         int temp;
