@@ -2,7 +2,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-
+//Bruteforce
 public class UnionOfSOrtedArrays {
     public static  void solution(int arr1[],int arr2[]){
         Set <Integer> s=new HashSet<>();
@@ -25,7 +25,6 @@ public class UnionOfSOrtedArrays {
       
     
 
-    
-    
+
     
 }
