@@ -1,3 +1,4 @@
+//BruteForce
 public class MaximumXorOFtwoNumbers {
   
     public static void main(String[] args)

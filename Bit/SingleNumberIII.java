@@ -24,3 +24,65 @@ public class SingleNumberIII
 	    System.out.println(num1 + " " + num2);
 	}
 }
+
+
+
+
+/*
+🧠 What Each Part Does
+1️⃣ XOR all elements
+1 ^ 2 ^ 1 ^ 3 ^ 2 ^ 5
+
+Duplicates cancel:
+
+1^1 = 0
+2^2 = 0
+
+So:
+
+xor = 3 ^ 5
+2️⃣ Find rightmost set bit
+rightmost = xor & (-xor)
+
+Example:
+
+xor = 6
+110
+-xor = -6
+010
+110
+010
+---
+010
+
+This isolates the lowest set bit where the two numbers differ.
+
+3️⃣ Divide numbers into two groups
+
+Using that bit.
+
+Group 1:
+
+2,2,3
+
+Group 2:
+
+1,1,5
+
+XOR inside each group removes duplicates.
+
+Result:
+
+3
+5
+⏱ Complexity
+
+Time:
+
+O(n)
+
+Space:
+
+O(1)
+
+Optimal solution. */
